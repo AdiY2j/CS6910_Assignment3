@@ -54,19 +54,19 @@ python train.py
 
 | Argument         | Default Value | Required | Type | Choices                     | Description                                                     |
 |------------------|---------------|----------|------|-----------------------------|-----------------------------------------------------------------|
-| --wandb_project | DL_Assignment_3 | False | str |                             | Project name used to track experiments in Weights & Biases dashboard |
-| --wandb_entity  | cs23m009 | False | str |                             | Wandb Entity used to track experiments in the Weights & Biases dashboard |
-| --num_layers    | 3             | False | int | 1, 2, 3                     | Number of layers in encoder and decoder                         |
-| --epochs        | 10            | False | int |                             | Number of epochs to train model                                 |
-| --batch_size    | 128           | False | int |                             | Batch size used to train model                                  |
-| --hidden_size   | 256           | False | int |                             | Hidden size used to train model                                 |
-| --embedding_size| 128           | False | int |                             | Embedding size used to train model                              |
-| --cell_type     | LSTM          | False | str | RNN, GRU, LSTM              | Cell Type choices                                               |
-| --bidirectional | True          | False | bool| True, False                 | Bidirectional Value                                             |
-| --attention     | False         | False | bool| True, False                 | Perform Attention                                               |
-| --learning_rate | 0.001         | False | float|                             | Learning rate used to optimize model parameters                 |
-| --drop_out      | 0.2           | False | float|                             | Dropout Value                                                   |
-| --teacher_forcing | 0.5         | False | float|                             | Teacher Force Value                                             |
-| --optimizer     | nadam         | False | str | sgd, rmsprop, adam, nadam   | Activation Function choices                                     |
+| `--wandb_project` | DL_Assignment_3 | False | str |                             | Project name used to track experiments in Weights & Biases dashboard |
+| `--wandb_entity`  | cs23m009 | False | str |                             | Wandb Entity used to track experiments in the Weights & Biases dashboard |
+| `--num_layers`    | 3             | False | int | 1, 2, 3                     | Number of layers in encoder and decoder                         |
+| `--epochs`        | 10            | False | int |                             | Number of epochs to train model                                 |
+| `--batch_size`    | 128           | False | int |                             | Batch size used to train model                                  |
+| `--hidden_size`   | 256           | False | int |                             | Hidden size used to train model                                 |
+| `--embedding_size`| 128           | False | int |                             | Embedding size used to train model                              |
+| `--cell_type`     | LSTM          | False | str | RNN, GRU, LSTM              | Cell Type choices                                               |
+| `--bidirectional` | True          | False | bool| True, False                 | Bidirectional Value                                             |
+| `--attention`     | False         | False | bool| True, False                 | Perform Attention                                               |
+| `--learning_rate` | 0.001         | False | float|                             | Learning rate used to optimize model parameters                 |
+| `--drop_out`      | 0.2           | False | float|                             | Dropout Value                                                   |
+| `--teacher_forcing` | 0.5         | False | float|                             | Teacher Force Value                                             |
+| `--optimizer`     | nadam         | False | str | sgd, rmsprop, adam, nadam   | Activation Function choices                                     |
 
 
